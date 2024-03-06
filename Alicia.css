@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.logo img{
+    height: 300px;
+    width: 400px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.container{
+    max-width: 1200px;
+    margin:20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-2 img{
+    width: 100%;
+    padding: 10px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+   min-width: 300px;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:25px 0;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+.col-2 a:hover{
+    background-color: plum;
+}
+.header-section{
+    margin-top:-20px;
+    background: radial-gradient(rosybrown,plum);
+}
+/*style section cathegories*/
+.col-3{
+    flex-basis: 33%;
+    min-width: 421px;
+    margin: 0px;
+}
+.cathegories{
+    margin:60px 0;
+}
+.col-3 img{
+    width: 100%;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+}
+/*Meilleur Produits*/
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 1px;
+    transition: transform 0.3s;
+}
+.col-4 img{
+    width: 100%;
+    height: 350px;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.raiting{
+    color: gold;
+}
